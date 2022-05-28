@@ -51,7 +51,7 @@ function Header(){
         </ul>
        </li>
        </a>
-       <li ><Link to="/Events" className="upper">Events</Link></li>
+       <li ><Link to="/Role" className="upper">Role</Link></li>
      </ul>
    </div>
    <div className="registerbtn">
