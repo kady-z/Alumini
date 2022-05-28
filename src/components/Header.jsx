@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import ReactDOM from 'react-dom';
+import { Link } from "react-router-dom";
+
 import "./componentsstyle/Header.css";
-import Img from "./componentsimages/NitAlumini.jpg"
+import Img from "./componentsimages/NitAlumini.jpg";
+
 function Header(){
   const [DisplayPresent1,setDisplayPresent1]=useState('none')
   const [DisplayPresent2,setDisplayPresent2]=useState(false)
@@ -48,7 +51,7 @@ function Header(){
         </ul>
        </li>
        </a>
-       <li  className="upper">Roles</li>
+       <li ><Link to="/Events" className="upper">Events</Link></li>
      </ul>
    </div>
    <div className="registerbtn">
