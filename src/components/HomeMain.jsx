@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ReactDOM from 'react-dom';
-import "./componentsstyle/Main.css";
+import "./componentsstyle/HomeMain.css";
 import Img from "./componentsimages/nitsxrhd1.png";
-function Main(){
+function HomeMain(){
   
    return(
     <div className="part1">
@@ -18,4 +18,4 @@ function Main(){
    )
 
 }
-export default Main;
+export default HomeMain;
