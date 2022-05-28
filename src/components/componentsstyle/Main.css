@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Tiro Kannada', serif;
+    user-select: none; 
+}
+.part1{
+    display: inline-flex;
+    text-align: center;
+}
+.imageSlider{
+    width: 65%;
+   display: inline-block;
+}
+.aluminiregbox{
+    width: 25%;
+    position: relative;
+    left: 3.5rem;
+    display: inline-grid;
+    justify-items: stretch;
+    justify-content: start;
+    align-content: space-evenly;
+}
+
+
+.btn2 {
+    background: black;
+    background-image: -webkit-linear-gradient(top, rgb(9, 9, 9), rgb(13, 13, 13));
+    background-image: -moz-linear-gradient(top, rgb(7, 7, 7), rgb(6, 6, 6));
+    background-image: -ms-linear-gradient(top, rgb(11, 11, 11), rgb(63, 60, 60));
+    background-image: -o-linear-gradient(top, rgb(8, 8, 8), rgb(14, 13, 13));
+    background-image: linear-gradient(to bottom, rgb(12, 12, 12), rgb(9, 9, 9));
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+  }
+  
+  .btn2:hover {
+    background: #878787;
+    background-image: -webkit-linear-gradient(top, #878787, red);
+    background-image: -moz-linear-gradient(top, #878787, red);
+    background-image: -ms-linear-gradient(top, #878787, red);
+    background-image: -o-linear-gradient(top, #878787, red);
+    background-image: linear-gradient(to bottom, #878787, red);
+    text-decoration: none;
+  }
+  
+@media screen and (max-width:700px){
+    .imageSlider{
+        width: 85%;
+       display: inline-block;
+    }
+    .part1{
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 0.5rem;
+    }
+    .aluminiregbox{
+        width: 50%;
+        position: relative;
+        left: 0rem;
+        display: inline-grid;
+        justify-items: stretch;
+        justify-content: start;
+        align-content: space-evenly;
+    }
+
+}

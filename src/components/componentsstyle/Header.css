@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Tiro Kannada', serif;
+    user-select: none; 
+}
+
+
+.header{
+    width: 100%;
+    height: 3%;
+    background-color: #444;
+    display: fixed;
+    text-align: center;
+}
+.nitlogodiv{
+  float: left;
+  background-color: white;
+  position: relative;
+  left: 1rem;
+}
+.CollegeName{
+  font-size: 1.6rem;
+  color:red;
+}
+
+.menu{
+  display: inline-block;
+}
+.upperul{
+  display: inline-block;
+}
+li{
+  display: inline-block;
+  color: white;
+}
+
+
+ul{
+  list-style-type: none;
+}
+.upper{
+  font-size: 1.5rem;
+  padding-left: 1.2rem;
+}
+
+.registerbtn{
+float: right;
+position: relative;
+right: 3rem;
+top: 0.3rem;
+}
+
+
+.btn {
+  background: red;
+  background-image: -webkit-linear-gradient(top, red, red);
+  background-image: -moz-linear-gradient(top, red, red);
+  background-image: -ms-linear-gradient(top, red, red);
+  background-image: -o-linear-gradient(top, red, red);
+  background-image: linear-gradient(to bottom, red, red);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #878787;
+  background-image: -webkit-linear-gradient(top, #878787, red);
+  background-image: -moz-linear-gradient(top, #878787, red);
+  background-image: -ms-linear-gradient(top, #878787, red);
+  background-image: -o-linear-gradient(top, #878787, red);
+  background-image: linear-gradient(to bottom, #878787, red);
+  text-decoration: none;
+}
+.hamburger {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+.hamburgerBox{
+  display: none;
+}
+
+@media screen and (max-width:700px){
+ .hamburgerBox{
+   display: block;
+   float: right;
+ }
+ .hamborgerlogoresponsive{
+  display: flow-root;
+  }
+ .menu{
+  display: block;
+  padding:0.1rem 0;
+}
+li{
+  display: block;
+}
+.registerbtn{
+  float: none;
+  position: relative;
+  right: 0rem;
+  top: 0rem;
+  padding-bottom: 0.4rem;
+  }
+  .hamburgerresponsivedatashow{
+    display: block;
+  }
+  .hamburgerresponsivedata{
+    display:none;
+  }
+
+}
