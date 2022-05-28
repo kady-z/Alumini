@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import ReactDOM from 'react-dom';
 import { Link } from "react-router-dom";
 
-import "./componentsstyle/Header.css";
-import Img from "./componentsimages/NitAlumini.jpg";
+import "./Header.css";
+import Img from "../../images/NitAlumini.jpg";
 
 function Header(){
   const [DisplayPresent1,setDisplayPresent1]=useState('none')
@@ -41,7 +41,7 @@ function Header(){
   <div className={DisplayPresent2?"hamburgerresponsivedatashow":"hamburgerresponsivedata"}>
   <div className="menu">
      <ul  className="upperul">
-       <li className="upper">Home</li>
+       <li ><Link to="/" className="upper">Home</Link></li>
        <a href="#" style={{textDecoration:'none',color:'inherit'  }}>
        <li  className="upper"   onClick={Onclick}>Events <span style={{fontSize:'1.2rem'}} id='btn'  onClick={Onclick}>&#9660;</span>
         <ul style={{display:DisplayPresent1,zIndex:1,position:'absolute',border:'1px solid grey',borderRadius:'5px', backgroundColor:'white',width:'10rem',textAlign:'center',boxShadow: '0px 8px 16px 0px black'}}>
