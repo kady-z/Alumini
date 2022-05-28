@@ -1,4 +1,5 @@
 import React from "react";
+
 function Events(){
     return(
         <div>
@@ -6,4 +7,5 @@ function Events(){
         </div>
     )
 }
+
 export default Events;
