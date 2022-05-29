@@ -5,11 +5,11 @@
     font-family: 'Raleway', sans-serif;
     font-family: 'Tiro Kannada', serif;
     -webkit-user-select: none;
-    user-select: none;}
-    .container{
+    user-select: none;
+}
+    .containerrole{
         position: relative;
         text-align: center;
-        color: white;
       }
 
 .imageSlider2{
@@ -21,18 +21,34 @@ height: 50%;
 .rolebox{
     text-align: center;
     width: 80%;
-    position: relative;
-    left: 7rem;
+    margin: auto;
    
 }
 .h1{background-color: none;}
 .heading{
-    text-align: center;
+    font-size: 3rem;
+    color: rgb(4, 76, 89);
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 50%;
-
-
+    text-decoration: underline;
     transform: translate(-50%, -50%);
   }
-
+  .rolestyle{
+      font-size: 4rem;
+      color: red;
+  }
+  @media screen and (max-width:700px) {
+    .heading{
+        font-size: 2rem;
+        text-decoration: underline;
+        color: rgb(4, 76, 89);
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      } 
+      .rolestyle{
+          font-size: 2rem;
+      }
+  }

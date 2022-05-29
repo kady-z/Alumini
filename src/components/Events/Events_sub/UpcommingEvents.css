@@ -116,7 +116,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .eventsdetails--sub {
         flex-direction: column;
         justify-content: flex-start;

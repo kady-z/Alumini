@@ -27,14 +27,14 @@ function Role(){
 
     return(
       <>
-      <div className="container">
+      <div className="containerrole">
  <div className="imageSlider2">
             <img src={imagesArray[ImgSlide]} alt="nitEvents" style={{width:'90%',maxHeight:'90vh'}}/>
-            <span className="heading"><h1 style={{fontSize:'4rem',color:'black'}}>Alumni-Institute Relationship</h1></span>
+            <span className="heading">Alumni-Institute Relationship</span>
          </div>
          </div>
          <div className="rolebox">
-            <h2 style={{fontSize:'5rem',color:'red'}}>ROLE</h2>
+            <h2 className="rolestyle">ROLE</h2>
 <p2>There is a saying that ‘there are no better ambassadors for your institute/university than your alumni’. Alumni are both a pride as well as a resource for any institution. Having a supportive and an engaged alumnus/alumna forms a huge support system. There has to be a sustained communication system between the alumni and institution. If communication stops once graduates leave an institution, their understanding of the university/institution will become stale. Instead, they have to be kept informed so that they can remain engaged and keep abreast on the progress of the institute. Good alumni relationships bring many benefits to both the institution and the alumni. A strong institute-alumni bond, not only allows institutes to benefit from the skills and experience of pass out graduates by offering their support to the current students and to the institution, but also benefits the alumni in various ways. One of the ways it benefits the alumni is that it keeps the alumni connected and aware about each other and in the process the needy alumni could be identified and helped. Second benefit to the alumni is that while mentoring the current students or participating in the progress of the institute they realize their own growth too. One alumnus of City University London, in an interview, once said, “my mentoring journey has been very rewarding. I have learnt a lot about myself and my own career trajectory.” Third benefit to the alumni is that they get opportunities to fulfil their urge, desire, aspiration and hunger to ‘give back’ to their Alma Mater in multiple possible ways. This yearning and craving, found in most of the Alumni, to help their institute is due to their love, affection and loyalty towards their Alma Mater.
 
 The alumni can help the institute in many ways. Some of the ways they can do this is listed as under:

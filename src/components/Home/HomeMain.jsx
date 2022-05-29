@@ -30,7 +30,7 @@ function HomeMain() {
       <>
        <div className="part1">
          <div className="imageSlider">
- <img src={imagesArray[ImgSlide]} alt="nitEvents" style={{width:'100%',height:'80vh'}}/>
+ <img src={imagesArray[ImgSlide]} alt="nitEvents" className="homeslideshow"/>
             
          </div>
          <div className="aluminiregbox">
@@ -41,21 +41,21 @@ function HomeMain() {
       </div>
       <div className="videoFrames">
       <h1 style={{fontSize:'3rem',color:'grey',textDecoration:'underline'}}>Events</h1>
-      <div style={{width:"24rem",height:"40rem",display:'inline-block',padding:'1rem'}}>
+      <div className="videoboxes">
       <iframe width="100%" height="50%" src="https://www.youtube.com/embed/zOtcs8gvjbw" allowFullScreen>
       </iframe>
       <h3 style={{color:'rgba(8,39,89,1)'}}>Alumini Meet 2021</h3>
       <p style={{color:'grey'}}>Alumni Meet 2021 was scheduled on 15 Feb 2021. The meet was be conducted online using a video conferencing / communication platform. Some Alumni (especially in-house alumni), NIT Faculty and staff participated in the meet in person in the institute campus premises. In this Alumni Meet pass-out Batches 1969 & 1970 were invited as Golden Jubilee batches
           whereas the pass-out Batches 1991, 1992, 1993 and 1994 are invited as Silver Jubilee batches.</p>
       </div>
-      <div style={{width:"24rem",height:"40rem",display:'inline-block',padding:'1rem'}}>
+      <div className="videoboxes">
       <iframe width="100%" height="50%"  src="https://www.youtube.com/embed/zOtcs8gvjbw" allowFullScree>
       </iframe>
       <h3 style={{color:'rgba(8,39,89,1)'}}>Alumini Meet 2021</h3>
       <p style={{color:'grey'}}>Alumni Meet 2021 was scheduled on 15 Feb 2021. The meet was be conducted online using a video conferencing / communication platform. Some Alumni (especially in-house alumni), NIT Faculty and staff participated in the meet in person in the institute campus premises. In this Alumni Meet pass-out Batches 1969 & 1970 were invited as Golden Jubilee batches
           whereas the pass-out Batches 1991, 1992, 1993 and 1994 are invited as Silver Jubilee batches.</p>
       </div>
-      <div style={{width:"24rem",height:"40rem",display:'inline-block',padding:'1rem'}}>
+      <div className="videoboxes">
       <iframe width="100%" height="50%"  src="https://www.youtube.com/embed/zOtcs8gvjbw" allowFullScree>
       </iframe>
       <h3 style={{color:'rgba(8,39,89,1)'}}>Alumini Meet 2021</h3>

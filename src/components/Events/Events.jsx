@@ -9,7 +9,7 @@ import AMImg from "./../../images/al_meet.jfif";
 export default function Events() {
     return (
         <>
-        <div className="Overlay"></div>
+           <div className="Overlay"></div>
         <section className="container">
             <div className="container_sub">
                 <div className="container_sub--Events">

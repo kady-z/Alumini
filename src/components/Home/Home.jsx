@@ -1,6 +1,5 @@
 import React from "react";
 import HomeMain from "./HomeMain";
-
 function Home() {
     return (
         <>
