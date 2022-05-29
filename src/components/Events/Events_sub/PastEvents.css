@@ -1,3 +1,8 @@
-h1{
-    background-color: blue;
+.card iframe {
+    border-radius: 10px;
+    min-height: 300px;
+}
+
+.pe_cont img {
+    width: 100%;
 }

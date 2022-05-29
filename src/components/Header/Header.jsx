@@ -94,10 +94,7 @@ function Header(){
 
    
   </div>
-<hr style={{height:'0.1rem',backgroundColor:'red'}}/>
-
-         
-        </div>
+  </div>
     )
 }
 export default Header;
