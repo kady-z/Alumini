@@ -60,7 +60,7 @@ function Header(){
          </li>
        <a href="#" style={{textDecoration:'none',color:'inherit'  }}>
 
-       <li  className="upper"   onClick={Onclick}>Events <span style={{fontSize:'1.2rem'}} id='btn'  onClick={Onclick}>&#9660;</span>
+       <li onClick={Onclick}><Link to="/Events" style={{textDecoration:'none'}} className="upper">Events</Link> <span style={{fontSize:'1.2rem'}} id='btn'  onClick={Onclick}>&#9660;</span>
 
         <ul style={{display:DisplayPresent1,zIndex:1,position:'absolute',border:'1px solid grey',borderRadius:'5px', backgroundColor:'white',width:'10rem',textAlign:'center',boxShadow: '0px 8px 16px 0px black'}}>
 
@@ -94,10 +94,7 @@ function Header(){
 
    
   </div>
-<hr style={{height:'0.1rem',backgroundColor:'red'}}/>
-
-         
-        </div>
+  </div>
     )
 }
 export default Header;
