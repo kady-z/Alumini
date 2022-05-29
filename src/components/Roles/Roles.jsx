@@ -1,10 +1,5 @@
-import React from "react";
-import './Roles.css'
-function Role(){
-    return(
-      <>
-<h1>hello</h1>
-      </>
-    )
+export default function Rules() {
+    return (
+        <h1>Hello I am roles</h1>
+    );
 }
-export default Role;
