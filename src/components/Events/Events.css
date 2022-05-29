@@ -1,16 +1,16 @@
 .Overlay {
-    height: calc(100vh - 3.5rem);
+    height: calc(100vh - 5rem);
     background: url(./../../images/bg.jpg);
     opacity: 0.7;
     position: fixed;
-    top: 3.5rem;
+    top: 5rem;
     left: 0; 
     right: 0;
     z-index: -3;
 }
 
 .container {
-    height: calc(100vh - 3.5rem);
+    height: calc(100vh - 5rem);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,7 +49,7 @@
 }
 
 .events-link:hover {
-    color: red;
+    color: var(--site-green);
 } 
 
 .container_sub--Details {
@@ -94,12 +94,12 @@
 }
 
 .card-details h2 {
-    color: darkblue;
+    color: var(--site-blue);
     font-weight: 900;
 }
 
 .card-details h2:hover {
-    color: red;
+    color: var(--site-green);
 }
 
 .container_sub h1 {
