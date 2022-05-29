@@ -13,6 +13,7 @@
 .imageSlider{
     width: 65%;
    display: inline-block;
+   padding: 0.3rem;
 }
 .aluminiregbox{
     width: 25%;
@@ -50,7 +51,15 @@
     background-image: linear-gradient(to bottom, #878787, red);
     text-decoration: none;
   }
-  
+  .videoFrames{
+      text-align: center;
+  }
+
+
+
+
+
+
 @media screen and (max-width:700px){
     .imageSlider{
         width: 85%;
