@@ -4,99 +4,64 @@ import { Link } from "react-router-dom";
 
 import "./Header.css";
 
+export default function Header() {
+  return (
+    <header>
+    <div class="nav-container">
+        <input type="checkbox" name="" id="check" />
 
-function Header(){
-  const [DisplayPresent1,setDisplayPresent1]=useState('none')
-  const [DisplayPresent2,setDisplayPresent2]=useState(false)
-  function Onclick(){
-    if(DisplayPresent1==='none'){
-      setDisplayPresent1('block');
-    }else{
-      setDisplayPresent1('none');
-    }
-  }
-  function Onhamclick(){
-   if(DisplayPresent2===false){
-     setDisplayPresent2(true);
-   }
-   else{
-    setDisplayPresent2(false);
-   }
-  }
+        <div class="logo-container">
+            <h3 class="logo">Brand<span>Name</span></h3>
+        </div>
 
+        <div class="nav-btn">
+            <div class="nav-links">
+                <ul>
+                    <li class="nav-link nav-link-border">
+                        <Link to="/"><i class="fas fa-home nav-icon"></i>Home</Link>
+                        <span></span>
+                    </li>
 
+                    <li class="nav-link">
+                        <Link to="/Roles"><i class="fas fa-archway nav-icon"></i><div>Roles</div></Link>
+                    </li>
 
-    return(
+                    <li class="nav-link">
+                        <Link to="Events"><i class="fab fa-servicestack nav-icon"></i><div>Events<i class="fas fa-caret-down"></i></div></Link>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <Link to="/UpcommingEvents">Meet 22</Link>
+                                </li>
+                                <li class="dropdown-link">
+                                    <Link to="/PastEvents">Past Events</Link>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
 
-<div>
-  
-<div className="header">
+                    <li class="nav-link nav-link-border">
+                        <a href="#"><i class="fas fa-address-card nav-icon"></i>About</a>
+                        <span></span>
+                    </li>
+                </ul>
+            </div>
 
-<div className="hamborgerlogoresponsive">
+            <div class="log-sign">
+                <a href="#" class="btn transparent">Log in</a>
+                <a href="#" class="btn solid">Sign Up</a>                    
+            </div>
+        </div>
 
-   <div className="nitlogodiv">
-  <span className="CollegeName">NITSXR</span><span ><b>ALUMINI</b></span>
-  </div>
+        <div class="hamburger-menu-container">
+            <div class="hamburger-menu">
+                <div></div>
+            </div>
+        </div>
 
-   <div className="hamburgerBox" onClick={Onhamclick}>
-   <span>
-    <div className="hamburger"></div>
-    <div className="hamburger"></div>
-   <div className="hamburger"></div>
- </span>
-   </div>
-
-</div>
-
-
-<div className={DisplayPresent2?"hamburgerresponsivedatashow":"hamburgerresponsivedata"}>
-
-<div className="menu">
-
-
-  <ul  className="upperul">
-
-    <li >
-      <Link to="/" className="upper">Home</Link>
-      </li>
-    <a href="#" style={{textDecoration:'none',color:'inherit'  }}>
-
-    <li onClick={Onclick}><Link to="/Events" style={{textDecoration:'none'}} className="upper">Events</Link> <span style={{fontSize:'1.2rem'}} id='btn'  onClick={Onclick}>&#9660;</span>
-
-     <ul style={{display:DisplayPresent1,zIndex:1,position:'absolute',border:'1px solid grey',borderRadius:'5px', backgroundColor:'white',width:'10rem',textAlign:'center',boxShadow: '0px 8px 16px 0px black'}}>
-
-       <li style={{padding:'0.6rem',fontSize:'1rem',color:'black'}}>
-         <Link to="/UpcommingEvents" style={{textDecoration:'none'}}>Meet'22</Link>
-       </li>
-
-       <hr  style={{height:'1px',backgroundColor:'grey'}}/>
-
-       <li style={{padding:'0.6rem',fontSize:'1rem',color:'black'}}>
-         <Link to="/PastEvents" style={{textDecoration:'none',color:'black'}}>Past Events</Link>
-         </li>
-
-     </ul>
-
-    </li>
-
-    </a>
-
-    <li >
-      <Link to="/Role" className="upper">Role</Link>
-      </li>
-  </ul>
-
-</div>
-
-
-<div className="registerbtn">
-  <button className="btn">Register Now</button>
-</div>
-
-
-</div>
-</div>
-</div>
-    )
+    </div>
+    <hr />
+</header>
+  );
 }
-export default Header;
