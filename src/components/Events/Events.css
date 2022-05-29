@@ -49,7 +49,7 @@
 }
 
 .events-link:hover {
-    color: red;
+    color: var(--site-green);
 } 
 
 .container_sub--Details {
@@ -94,12 +94,12 @@
 }
 
 .card-details h2 {
-    color: darkblue;
+    color: var(--site-blue);
     font-weight: 900;
 }
 
 .card-details h2:hover {
-    color: red;
+    color: var(--site-green);
 }
 
 .container_sub h1 {
