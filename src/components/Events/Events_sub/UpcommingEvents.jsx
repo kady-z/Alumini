@@ -5,7 +5,6 @@ import AMImg from "./../../../images/al_meet.jfif";
 function Upcoming() {
     return (
      <>
-       <div className="Overlay"></div>
        <div className="container_ue">
           <div className="eventsdetails">
             <div className="eventsdetails--sub">

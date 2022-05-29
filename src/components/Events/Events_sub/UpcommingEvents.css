@@ -25,7 +25,7 @@
 }
 
 .eventsdetails--sub div {
-    width: 15vw;
+    width: 15%;
     background-color: #fff;
     color: #000;
     display: flex;
@@ -59,10 +59,8 @@
 }
 
 .container_ue--sub {
-    position: absolute;
-    top: 12rem;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    top: -3.5rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -116,7 +114,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .eventsdetails--sub {
         flex-direction: column;
         justify-content: flex-start;

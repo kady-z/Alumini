@@ -3,6 +3,8 @@ import Home from './components/Home/Home';
 import UpcommingEvents from "./components/Events/Events_sub/UpcommingEvents";
 import PastEvents from "./components/Events/Events_sub/PastEvents";
 import Header from "./components/Header/Header";
+import Upbutton from "./components/Footer/Upbutton"
+import Footer from "./components/Footer/Footer"
 import Role from "./components/Roles/Roles";
 import Events from "./components/Events/Events";
 
@@ -31,6 +33,8 @@ function App() {
             }
           />
         </Routes>
+        <Upbutton/>
+        <Footer />
       </BrowserRouter>
     );
 }
